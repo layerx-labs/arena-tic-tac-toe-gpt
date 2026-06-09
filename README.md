@@ -1,7 +1,7 @@
 # Tic Tac Toe
 
-## Overview
-This is a simple Tic Tac Toe game implemented as a single-page web application. It allows two players to play against each other locally, alternating turns between 'X' and 'O'. The game detects wins and draws, and provides a reset button to start a new game.
+## Description
+This is a simple Tic Tac Toe game implemented as a single-page web application. It allows two players to play against each other in a local environment. The game detects wins, draws, and indicates whose turn it is.
 
 ## How to Run Locally
 1. Clone the repository:
@@ -17,8 +17,9 @@ You can play the game live at: [Tic Tac Toe Demo](https://arena-tic-tac-toe-gpt.
 ## Architecture Overview
 - The game is built using HTML, CSS, and JavaScript.
 - The game board is created using a grid layout.
-- Game logic is handled in JavaScript, including win detection and turn management.
+- JavaScript handles the game logic, including player turns, win detection, and game reset functionality.
 
-## Trade-offs and Limitations
-- The game currently does not support AI for single-player mode.
-- The design is minimal and can be enhanced with better styling and animations.
+## Trade-offs and Known Limitations
+- The game currently supports only two-player local play.
+- There is no AI for a single-player mode.
+- The game does not save progress or state between sessions.
