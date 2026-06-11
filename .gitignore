@@ -1,1 +1,14 @@
 .vercel
+node_modules
+dist
+.env
+.DS_Store
+*.local
+.arena/
+node_modules/
+dist/
+.vercel/
+.arena/
+node_modules/
+dist/
+.vercel/
